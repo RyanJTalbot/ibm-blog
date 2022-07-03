@@ -55,9 +55,9 @@ export default ({
 		{
 			imageSrc:
 				'https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80',
-			category: 'Travel Tips',
-			date: 'April 21, 2020',
-			title: 'Safely Travel in Foreign Countries',
+			category: 'First Blog Post',
+			date: 'July 6, 2022',
+			title: 'Title to first blog post',
 			description:
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 			url: 'https://timerse.com',
@@ -129,9 +129,9 @@ export default ({
 const getPlaceholderPost = () => ({
 	imageSrc:
 		'https://images.unsplash.com/photo-1418854982207-12f710b74003?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80',
-	category: 'Travel Guide',
-	date: 'April 19, 2020',
-	title: 'Visit the beautiful Alps in Switzerland',
+	category: 'Second blog post',
+	date: 'july 10, 2022',
+	title: 'Title of second blog post',
 	description:
 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 	url: 'https://reddit.com',

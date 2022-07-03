@@ -78,16 +78,10 @@ export default ({
 	 */
 	const defaultLinks = [
 		<NavLinks key={1}>
-			<NavLink href='/#'>About</NavLink>
-			<NavLink href='/#'>Blog</NavLink>
-			<NavLink href='/#'>Pricing</NavLink>
-			<NavLink href='/#'>Contact Us</NavLink>
-			<NavLink href='/#' tw='lg:ml-12!'>
-				Login
-			</NavLink>
-			<PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href='/#'>
-				Sign Up
-			</PrimaryLink>
+			<NavLink href='/about'>About</NavLink>
+			<NavLink href='/blog'>Blog</NavLink>
+			<NavLink href='/cv'>CV</NavLink>
+			<NavLink href='/contact'>Contact</NavLink>
 		</NavLinks>,
 	];
 
