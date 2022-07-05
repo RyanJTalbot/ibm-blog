@@ -6,8 +6,11 @@ import styled from 'styled-components';
 import { css } from 'styled-components/macro';
 import Header from 'components/headers/light.js';
 import Footer from 'components/footers/FiveColumnWithInputForm.js';
+// import Footer from 'components/footers/FiveColumnDark.js';
+// import Footer from 'components/footers/FiveColumnWithBackground.js';
 import { SectionHeading } from 'components/misc/Headings';
 import { PrimaryButton } from 'components/misc/Buttons';
+import post1 from 'components/posts/post1';
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
@@ -53,8 +56,7 @@ export default ({
 	headingText = 'Blog Posts',
 	posts = [
 		{
-			imageSrc:
-				'https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80',
+			imageSrc: 'https://ryanjt.dev/images/mee.jpg',
 			category: 'First Blog Post',
 			date: 'July 6, 2022',
 			title: 'Title to first blog post',
@@ -127,8 +129,7 @@ export default ({
 };
 
 const getPlaceholderPost = () => ({
-	imageSrc:
-		'https://images.unsplash.com/photo-1418854982207-12f710b74003?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80',
+	imageSrc: 'https://ryanjt.dev/images/vw/Gator3.JPG',
 	category: 'Second blog post',
 	date: 'july 10, 2022',
 	title: 'Title of second blog post',
