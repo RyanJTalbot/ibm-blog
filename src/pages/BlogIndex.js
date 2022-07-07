@@ -14,7 +14,7 @@ import post1 from 'components/posts/post1';
 
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900`;
-const Posts = tw.div`mt-6 sm:-mr-8 flex flex-wrap`;
+const Posts = tw.div`mt-6 sm:-mr-6 flex flex-wrap`;
 const PostContainer = styled.div`
 	${tw`mt-10 w-full sm:w-1/2 lg:w-1/3 sm:pr-8`}
 	${(props) =>
@@ -22,7 +22,7 @@ const PostContainer = styled.div`
 		css`
 			${tw`w-full!`}
 			${Post} {
-				${tw`sm:flex-row! h-full sm:pr-4`}
+				${tw`sm:flex-row! h-full sm:pr-12`}
 			}
 			${Image} {
 				${tw`sm:h-96 sm:min-h-full sm:w-1/2 lg:w-2/3 sm:rounded-t-none sm:rounded-l-lg`}
